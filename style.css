@@ -1,0 +1,86 @@
+:root {
+  --main-color: #d67e15;
+  --accent-color: #158fd6;
+  --title-font: "Michroma", sans-serif;
+  --general-font: "Noto Sans", sans-serif;
+}
+
+body,
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(0, 0, 0);
+  color: var(--main-color);
+}
+
+header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: #000;
+  border: none;
+}
+.branding {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+.logo {
+  width: 150px;
+  height: 60px;
+}
+.social-icons-container {
+  display: flex;
+  align-items: center;
+}
+
+.social-icon {
+  width: 30px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem 0;
+}
+main h1 {
+  font-size: 1rem;
+  text-align: center;
+  font-family: var(--title-font);
+}
+p {
+  font-family: var(--general-font);
+}
+.radio-player {
+  width: 100%;
+  /* border: 2px solid #158fd6; */
+  padding: 1rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer {
+  position: sticky;
+  bottom: 0;
+  background-color: #000;
+}
+.footer-nav {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.nav-item {
+  /* border: 1px solid #fff; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nav-item p {
+  font-weight: 600;
+}
+.nav-icon {
+  width: 30px;
+}
