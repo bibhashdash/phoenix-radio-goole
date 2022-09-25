@@ -1,6 +1,7 @@
 :root {
   --main-color: #d67e15;
   --accent-color: #158fd6;
+  --white-color: #fff;
   --title-font: "Michroma", sans-serif;
   --general-font: "Noto Sans", sans-serif;
 }
@@ -11,13 +12,18 @@ html {
   margin: 0;
   padding: 0;
   background-color: rgb(0, 0, 0);
-  color: var(--main-color);
 }
-
+body {
+  padding-bottom: 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 header {
   position: sticky;
   top: 0;
   width: 100%;
+  max-width: 1200px;
   background-color: #000;
   border: none;
 }
@@ -36,34 +42,93 @@ header {
 }
 
 .social-icon {
-  width: 30px;
+  width: 20px;
 }
 
 main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0.5rem 0;
 }
-main h1 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-size: 1rem;
   text-align: center;
   font-family: var(--title-font);
+  color: var(--main-color);
 }
 p {
   font-family: var(--general-font);
+  color: var(--white-color);
 }
-.radio-player {
+a {
+  color: var(--accent-color);
+}
+.btn {
+  border-radius: 10px;
+  border: none;
+  background-color: var(--main-color);
+  padding: 5%;
+  font-family: var(--general-font);
+  font-size: 1rem;
+  margin-top: 1rem;
+  font-weight: 600;
+}
+.btn:hover {
+  background-color: var(--white-color);
+}
+.section {
+  padding: 5% 0;
+}
+.section--radio-player {
   width: 100%;
-  /* border: 2px solid #158fd6; */
-  padding: 1rem;
+  height: 100%;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
+.section--about {
+  padding: 5%;
+}
+.about-container {
+  width: 100%;
+  max-width: 500px;
+}
+.section--contact {
+  padding: 5% 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hidden {
+  display: none;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  max-width: 400px;
+}
+
+input,
+textarea {
+  border-radius: 10px;
+  border: none;
+  padding: 1rem;
+  font-family: var(--general-font);
+}
 footer {
-  position: sticky;
+  position: fixed;
+  width: 100%;
+  max-width: 1200px;
+  /* padding: 20px 0; */
   bottom: 0;
   background-color: #000;
 }
@@ -73,7 +138,6 @@ footer {
 }
 
 .nav-item {
-  /* border: 1px solid #fff; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -83,4 +147,7 @@ footer {
 }
 .nav-icon {
   width: 30px;
+}
+.nav-item-text__inactive {
+  color: #303030;
 }
