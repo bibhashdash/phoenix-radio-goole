@@ -6,7 +6,14 @@
   --general-font: "Noto Sans", sans-serif;
   --disabled-color: #303030;
 }
-
+.announcement {
+  padding: 5%;
+  font-size: 0.8rem;
+}
+.announcement span {
+  color: var(--main-color);
+  font-weight: bold;
+}
 body,
 html {
   box-sizing: border-box;
@@ -28,6 +35,7 @@ header {
   max-width: 1200px;
   background-color: #000;
   border: none;
+  padding-bottom: 1rem;
 }
 .branding {
   display: flex;
@@ -135,6 +143,7 @@ footer {
   position: fixed;
   width: 100%;
   max-width: 1200px;
+  padding-top: 1rem;
   /* padding: 20px 0; */
   bottom: 0;
   background-color: #000;
