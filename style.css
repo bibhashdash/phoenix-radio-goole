@@ -4,6 +4,7 @@
   --white-color: #fff;
   --title-font: "Michroma", sans-serif;
   --general-font: "Noto Sans", sans-serif;
+  --disabled-color: #303030;
 }
 
 body,
@@ -116,6 +117,7 @@ a {
   flex-direction: column;
   width: 80%;
   max-width: 400px;
+  gap: 0.5rem;
 }
 
 input,
@@ -136,7 +138,6 @@ footer {
   /* padding: 20px 0; */
   bottom: 0;
   background-color: #000;
-  
 }
 .footer-nav {
   display: grid;
@@ -153,7 +154,10 @@ footer {
 }
 .nav-icon {
   width: 30px;
+  color: var(--accent-color);
 }
-.nav-item-text__inactive {
-  color: #303030;
+
+.disabled {
+  color: var(--disabled-color);
+  cursor: not-allowed;
 }
