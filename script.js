@@ -78,10 +78,8 @@ const getNowLive = (day, hour) => {
       hour < show.showEndHour
     ) {
       return show;
-    } else return false;
+    }
   });
-
-  console.log(found);
 
   if (found) {
     showHostSpan.textContent = `${found.showHost}`;
