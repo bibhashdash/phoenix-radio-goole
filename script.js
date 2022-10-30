@@ -38,8 +38,8 @@ const shows = [
     showName: "Cinema Soundtrack",
     showHost: "DJ Lewis Kellett",
     showDays: ["Saturday"],
-    showStartHour: 13,
-    showEndHour: 15,
+    showStartHour: 8,
+    showEndHour: 10,
   },
   {
     showName: "Sally's Evening Chill",
@@ -49,16 +49,16 @@ const shows = [
     showEndHour: 21,
   },
   {
-    showName: "Jazz with Jules",
-    showHost: "DJ Julie Shillito",
-    showDays: ["Saturday", "Sunday"],
+    showName: "The Mosh Pit",
+    showHost: "DJ Bibhash Dash",
+    showDays: ["Wednesday"],
     showStartHour: 20,
     showEndHour: 22,
   },
   {
-    showName: "The Mosh Pit",
-    showHost: "DJ Bibhash Dash",
-    showDays: ["Wednesday"],
+    showName: "Jazz with Jules",
+    showHost: "DJ Julie Shillito",
+    showDays: ["Saturday", "Sunday"],
     showStartHour: 20,
     showEndHour: 22,
   },
@@ -66,33 +66,44 @@ const shows = [
 
 let currentDay;
 let currentHour;
+let tempArray1;
 const showHostSpan = document.getElementById("host");
 const showNameSpan = document.getElementById("show-title");
 
-const getNowLive = () => {
-  currentDay = dayjs().format("dddd");
-  currentHour = dayjs().format("H");
+const getNowLive = (day, hour) => {
+  const found = shows.find((show) => {
+    if (
+      show.showDays.includes(day) &&
+      hour >= show.showStartHour &&
+      hour < show.showEndHour
+    ) {
+      return show;
+    } else return false;
+  });
 
-  for (let i = 0; i < shows.length; i++) {
-    if (shows[i].showDays.includes(currentDay)) {
-      if (
-        currentHour >= shows[i].showStartHour &&
-        currentHour < shows[i].showEndHour
-      ) {
-        showHostSpan.textContent = `${shows[i].showHost}`;
-        showNameSpan.textContent = `'${shows[i].showName}'`;
-      }
-    } else {
-      showHostSpan.textContent = "DJ PhoenixBot";
-      showNameSpan.textContent = "'Non-stop music'";
-    }
+  console.log(found);
+
+  if (found) {
+    showHostSpan.textContent = `${found.showHost}`;
+    showNameSpan.textContent = `${found.showName}`;
+  } else {
+    showHostSpan.textContent = "DJ Phoenix Bot";
+    showNameSpan.textContent = "The Phoenix Collection";
   }
 };
 
 document.addEventListener("DOMContentLoaded", () => {
-  getNowLive();
+  currentDay = dayjs().format("dddd");
+  currentHour = dayjs().format("H");
+  showHostSpan.textContent = "";
+  showNameSpan.textContent = "";
+  getNowLive(currentDay, currentHour);
 });
 
 setInterval(() => {
-  getNowLive();
+  currentDay = dayjs().format("dddd");
+  currentHour = dayjs().format("H");
+  showHostSpan.textContent = "";
+  showNameSpan.textContent = "";
+  getNowLive(currentDay, currentHour);
 }, 300000);
