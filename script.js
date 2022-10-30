@@ -51,16 +51,9 @@ const shows = [
   {
     showName: "The Mosh Pit",
     showHost: "DJ Bibhash Dash",
-    showDays: ["Wednesday"],
-    showStartHour: 20,
-    showEndHour: 22,
-  },
-  {
-    showName: "Jazz with Jules",
-    showHost: "DJ Julie Shillito",
-    showDays: ["Saturday", "Sunday"],
-    showStartHour: 20,
-    showEndHour: 22,
+    showDays: ["Sunday"],
+    showStartHour: 2,
+    showEndHour: 3,
   },
 ];
 
