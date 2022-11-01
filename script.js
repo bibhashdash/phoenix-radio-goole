@@ -55,6 +55,13 @@ const shows = [
     showStartHour: 2,
     showEndHour: 3,
   },
+  {
+    showName: "Light Classics",
+    showHost: "DJ Barbara Jeffreys",
+    showDays: ["Friday"],
+    showStartHour: 9,
+    showEndHour: 11,
+  },
 ];
 
 let currentDay;
