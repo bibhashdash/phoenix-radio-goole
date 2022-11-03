@@ -7,7 +7,7 @@ const shows = [
     showEndHour: 15,
   },
   {
-    showName: "Pick 'n Mix",
+    showName: "Alt Mix",
     showHost: "DJ Julie Shaw",
     showDays: ["Wednesday", "Thursday"],
     showStartHour: 18,
