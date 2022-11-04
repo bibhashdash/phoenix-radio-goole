@@ -62,6 +62,13 @@ const shows = [
     showStartHour: 9,
     showEndHour: 11,
   },
+  {
+    showName: "Sports Talk",
+    showHost: "Bibhash and Steve",
+    showDays: ["Friday"],
+    showStartHour: 15,
+    showEndHour: 16,
+  },
 ];
 
 let currentDay;
