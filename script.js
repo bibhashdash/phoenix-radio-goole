@@ -69,6 +69,13 @@ const shows = [
     showStartHour: 15,
     showEndHour: 16,
   },
+  {
+    showName: "Clubland Kaos",
+    showHost: "DJ Martin",
+    showDays: ["Monday"],
+    showStartHour: 15,
+    showEndHour: 17,
+  },
 ];
 
 let currentDay;
