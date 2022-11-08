@@ -194,6 +194,27 @@ a {
   display: flex;
   flex-direction: column;
 }
+.section--team {
+  padding: 5%;
+}
+.team-container {
+  width: 100%;
+  max-width: 600px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+.team-member {
+  display: flex;
+  flex-direction: column;
+}
+.team-member-name {
+  color: var(--main-color);
+}
+
+.team-member-role {
+  font-size: 0.8rem;
+}
 .section--contact {
   padding: 5% 0;
   width: 100%;
@@ -268,5 +289,13 @@ footer {
   .shows-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 568px) {
+  .team-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
   }
 }
