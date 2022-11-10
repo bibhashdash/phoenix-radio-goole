@@ -76,6 +76,13 @@ const shows = [
     showStartHour: 15,
     showEndHour: 17,
   },
+  {
+    showName: "The Sunday Sesh",
+    showHost: "DJ Reeders",
+    showDays: ["Sunday"],
+    showStartHour: 21,
+    showEndHour: 23,
+  },
 ];
 
 let currentDay;
