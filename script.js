@@ -126,3 +126,19 @@ setInterval(() => {
   showNameSpan.textContent = "";
   getNowLive(currentDay, currentHour);
 }, 300000);
+
+// chat modal
+const chatModalDiv = document.querySelector("#chat-modal-icon");
+chatModalDiv.addEventListener("click", () => {
+  document
+    .querySelector(".contact-us-modal-background")
+    .classList.remove("hidden");
+});
+
+const chatModalDivClose = document.querySelector("#chat-modal-close-icon");
+
+chatModalDivClose.addEventListener("click", () => {
+  document
+    .querySelector(".contact-us-modal-background")
+    .classList.add("hidden");
+});

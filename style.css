@@ -7,6 +7,7 @@
   --title-font: "Michroma", sans-serif;
   --general-font: "Noto Sans", sans-serif;
   --disabled-color: #303030;
+  --button-hover-color: #9c5600;
 }
 
 body,
@@ -23,6 +24,37 @@ body {
   flex-direction: column;
   align-items: center;
 }
+.contact-us-modal-background {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 999;
+  position: fixed;
+  height: 100%;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.89);
+}
+.contact-us-modal-content {
+  padding: 5% 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+}
+.form-disclaimer {
+  margin-top: 2rem;
+  font-size: 0.8rem;
+}
+@media screen and (max-width: 568px) {
+  .contact-us-modal-content {
+    padding: 5% !important;
+  }
+}
+.chat-modal-close {
+  align-self: flex-end;
+}
+
 header {
   position: sticky;
   top: 0;
@@ -43,13 +75,21 @@ header {
 }
 .social-icons-container {
   display: flex;
+  gap: 1rem;
   align-items: center;
 }
 
 .social-icon {
   width: 20px;
+  cursor: pointer;
 }
-
+.contact-studio-cta {
+  width: 150px;
+  color: var(--black-color);
+  font-weight: bold;
+  font-size: 0.8rem !important;
+  text-transform: uppercase;
+}
 main {
   display: flex;
   flex-direction: column;
@@ -88,7 +128,7 @@ a {
   font-weight: 600;
 }
 .btn:hover {
-  background-color: var(--white-color);
+  background-color: var(--button-hover-color) !important;
 }
 .section {
   padding: 5% 0;

@@ -49,6 +49,57 @@
     <title>Phoenix Community Radio Goole</title>
   </head>
   <body>
+    <div id="chat-modal-div" class="contact-us-modal-background hidden">
+      <div class="contact-us-modal-content">
+        <div class="chat-modal-close">
+          <img
+            id="chat-modal-close-icon"
+            class="social-icon"
+            src="./assets/icons/close_black_24dp.svg"
+            alt=""
+          />
+        </div>
+        <h2>Contact</h2>
+        <p class="form-disclaimer">
+          Got a song request or a shout-out? Send 'em our way!
+        </p>
+        <form
+          name="contact-studio"
+          class="contact-form modal-contact-form"
+          action=""
+          method="POST"
+          data-netlify="true"
+          netlify
+          netlify-honeypot="bot-field"
+          data-netlify-recaptcha="true"
+        >
+          <p class="hidden">
+            <label>
+              Don't fill this out if you're human: <input name="bot-field" />
+            </label>
+          </p>
+          <label for="name"><p>Name:</p></label>
+          <input type="text" name="name" required placeholder="Required" />
+          <label for="name"><p>Email:</p></label>
+          <input type="email" name="name" required placeholder="Required" />
+          <label for=""><p>Message:</p></label>
+          <textarea
+            name="message"
+            cols="30"
+            rows="5"
+            required
+            placeholder="Required"
+          ></textarea>
+          <div class="recaptcha-div" data-netlify-recaptcha="true"></div>
+          <button class="btn" type="submit">Submit</button>
+        </form>
+        <p class="form-disclaimer">
+          Please note: After submitting this form you will be redirected away
+          from the page which means the radio will stop playing. Please click
+          the "back to our site" button to return to Phoenix.
+        </p>
+      </div>
+    </div>
     <header>
       <div class="branding">
         <div class="logo-container">
@@ -57,9 +108,9 @@
           </a>
         </div>
         <div class="social-icons-container">
-          <a target="_blank" href="https://www.facebook.com/phoenixradiogoole">
-            <img class="social-icon" src="./assets/icons/facebook.svg" alt="" />
-          </a>
+          <button id="chat-modal-icon" class="btn contact-studio-cta">
+            Contact Studio
+          </button>
         </div>
       </div>
     </header>
@@ -328,16 +379,17 @@
             </div>
             <div class="show">
               <img
-                      class="presenter-profile-pic"
-                      src="assets/images/presenters/paulReedman.jpeg"
-                      alt=""
+                class="presenter-profile-pic"
+                src="assets/images/presenters/paulReedman.jpeg"
+                alt=""
               />
               <div class="show-content">
                 <h3 class="show-title">The Sunday Sesh</h3>
                 <p class="show-description">
-                  Dance music fans are in for a treat as DJ Reeders takes you on a trip down memory lane for all those
-                  clubbers out there. Playing 90s and noughties club anthems, clubland and bounce. He’ll be sure to get
-                  ya goosebumps going!
+                  Dance music fans are in for a treat as DJ Reeders takes you on
+                  a trip down memory lane for all those clubbers out there.
+                  Playing 90s and noughties club anthems, clubland and bounce.
+                  He’ll be sure to get ya goosebumps going!
                 </p>
                 <p class="show-info">
                   <span>Sundays</span>
@@ -350,7 +402,7 @@
       </div>
 
       <div id="team" class="section section--team">
-        <h2>The Team</h2>
+        <h2>Team</h2>
         <div class="team-container">
           <p class="team-member">
             <span class="team-member-name">Maureen Brown</span>
@@ -397,7 +449,8 @@
           <p class="team-member">
             <span class="team-member-name">Martin Gray</span>
             <span class="team-member-role">Presenter</span>
-          </p><p class="team-member">
+          </p>
+          <p class="team-member">
             <span class="team-member-name">Paul Reedman</span>
             <span class="team-member-role">Presenter</span>
           </p>
