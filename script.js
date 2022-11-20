@@ -83,6 +83,20 @@ const shows = [
     showStartHour: 21,
     showEndHour: 23,
   },
+  {
+    showName: "Exciting Eighties",
+    showHost: "DJ Victoria Anne",
+    showDays: ["Monday"],
+    showStartHour: 21,
+    showEndHour: 23,
+  },
+  {
+    showName: "Vic and Mix",
+    showHost: "DJ Victoria Anne",
+    showDays: ["Tuesday"],
+    showStartHour: 21,
+    showEndHour: 23,
+  },
 ];
 
 let currentDay;
