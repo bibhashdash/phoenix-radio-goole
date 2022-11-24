@@ -28,13 +28,6 @@ const shows = [
     showEndHour: 14,
   },
   {
-    showName: "Mesmerise",
-    showHost: "DJ Steve",
-    showDays: ["Thursday"],
-    showStartHour: 20,
-    showEndHour: 22,
-  },
-  {
     showName: "Cinema Soundtrack",
     showHost: "DJ Lewis Kellett",
     showDays: ["Saturday"],
@@ -57,7 +50,7 @@ const shows = [
   },
   {
     showName: "Sports Talk",
-    showHost: "Bibhash and Steve",
+    showHost: "Bibhash",
     showDays: ["Friday"],
     showStartHour: 15,
     showEndHour: 16,
