@@ -116,6 +116,9 @@ a {
 }
 .main-site-title {
   color: var(--main-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .btn {
   border-radius: 10px;
