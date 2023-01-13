@@ -83,6 +83,13 @@ const shows = [
     showStartHour: 21,
     showEndHour: 23,
   },
+  {
+    showName: "Music and Musings",
+    showHost: "DJ Maverick",
+    showDays: ["Thursday"],
+    showStartHour: 10,
+    showEndHour: 12,
+  },
 ];
 
 let currentDay;

@@ -1,457 +1,484 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="Phoenix Community Radio - Goole" />
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="Phoenix Community Radio - Goole"/>
     <meta
-      name="description"
-      content="Phoenix Community Radio is a local internet radio station based in Goole, East Yorkshire. We are made up of volunteer presenters showcasing their love of music and radio. We broadcast out of Carlisle House, Goole."
+            name="description"
+            content="Phoenix Community Radio is a local internet radio station based in Goole, East Yorkshire. We are made up of volunteer presenters showcasing their love of music and radio. We broadcast out of Carlisle House, Goole."
     />
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
-      crossorigin="anonymous"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+            crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css"/>
     <link
-      rel="icon"
-      href="./assets/favicons/favicon128x128.png"
-      type="image/png"
-    />
-    <link
-      rel="icon"
-      href="./assets/favicons/favicon180x180.png"
-      type="image/png"
+            rel="icon"
+            href="./assets/favicons/favicon128x128.png"
+            type="image/png"
     />
     <link
-      rel="icon"
-      href="./assets/favicons/favicon192x192.pngg"
-      type="image/png"
+            rel="icon"
+            href="./assets/favicons/favicon180x180.png"
+            type="image/png"
     />
     <link
-      rel="icon"
-      href="./assets/favicons/favicon32x32.pngg"
-      type="image/png"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Michroma&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
+            rel="icon"
+            href="./assets/favicons/favicon192x192.pngg"
+            type="image/png"
     />
     <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
+            rel="icon"
+            href="./assets/favicons/favicon32x32.pngg"
+            type="image/png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link
+            href="https://fonts.googleapis.com/css2?family=Michroma&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet"
+    />
+    <link
+            href="https://fonts.googleapis.com/icon?family=Material+Icons"
+            rel="stylesheet"
     />
     <title>Phoenix Community Radio Goole</title>
-  </head>
-  <body>
-    <div id="chat-modal-div" class="contact-us-modal-background hidden">
-      <div class="contact-us-modal-content">
+</head>
+<body>
+<div id="chat-modal-div" class="contact-us-modal-background hidden">
+    <div class="contact-us-modal-content">
         <div class="chat-modal-close">
-          <img
-            id="chat-modal-close-icon"
-            class="social-icon"
-            src="./assets/icons/close_black_24dp.svg"
-            alt=""
-          />
+            <img
+                    id="chat-modal-close-icon"
+                    class="social-icon"
+                    src="./assets/icons/close_black_24dp.svg"
+                    alt=""
+            />
         </div>
         <h2>Contact</h2>
         <p class="form-disclaimer">
-          Got a song request or a shout-out? Send 'em our way!
+            Got a song request or a shout-out? Send 'em our way!
         </p>
         <form
-          name="contact-studio"
-          class="contact-form modal-contact-form"
-          action=""
-          method="POST"
-          data-netlify="true"
-          netlify
-          netlify-honeypot="bot-field"
-          data-netlify-recaptcha="true"
+                name="contact-studio"
+                class="contact-form modal-contact-form"
+                action=""
+                method="POST"
+                data-netlify="true"
+                netlify
+                netlify-honeypot="bot-field"
+                data-netlify-recaptcha="true"
         >
-          <p class="hidden">
-            <label>
-              Don't fill this out if you're human: <input name="bot-field" />
-            </label>
-          </p>
-          <label for="name"><p>Name:</p></label>
-          <input type="text" name="name" required placeholder="Required" />
-          <label for="name"><p>Email:</p></label>
-          <input type="email" name="name" required placeholder="Required" />
-          <label for=""><p>Message:</p></label>
-          <textarea
-            name="message"
-            cols="30"
-            rows="5"
-            required
-            placeholder="Required"
-          ></textarea>
-          <div class="recaptcha-div" data-netlify-recaptcha="true"></div>
-          <button class="btn" type="submit">Submit</button>
+            <p class="hidden">
+                <label>
+                    Don't fill this out if you're human: <input name="bot-field"/>
+                </label>
+            </p>
+            <label for="name"><p>Name:</p></label>
+            <input type="text" name="name" required placeholder="Required"/>
+            <label for="name"><p>Email:</p></label>
+            <input type="email" name="name" required placeholder="Required"/>
+            <label for=""><p>Message:</p></label>
+            <textarea
+                    name="message"
+                    cols="30"
+                    rows="5"
+                    required
+                    placeholder="Required"
+            ></textarea>
+            <div class="recaptcha-div" data-netlify-recaptcha="true"></div>
+            <button class="btn" type="submit">Submit</button>
         </form>
         <p class="form-disclaimer">
-          Please note: After submitting this form you will be redirected away
-          from the page which means the radio will stop playing. Please click
-          the "back to our site" button to return to Phoenix.
+            Please note: After submitting this form you will be redirected away
+            from the page which means the radio will stop playing. Please click
+            the "back to our site" button to return to Phoenix.
         </p>
-      </div>
     </div>
-    <header>
-      <div class="branding">
+</div>
+<header>
+    <div class="branding">
         <div class="logo-container">
-          <a href="https://www.phoenixcommunityradio.com/">
-            <img class="logo" src="./assets/logos/logo2.png" alt="" />
-          </a>
+            <a href="https://www.phoenixcommunityradio.com/">
+                <img class="logo" src="./assets/logos/logo2.png" alt=""/>
+            </a>
         </div>
         <div class="social-icons-container">
-          <button id="chat-modal-icon" class="btn contact-studio-cta">
-            Contact Studio
-          </button>
+            <button id="chat-modal-icon" class="btn contact-studio-cta">
+                Contact Studio
+            </button>
         </div>
-      </div>
-    </header>
-    <main>
-      <p class="main-site-title">Goole's Premier Community Radio <br />
+    </div>
+</header>
+<main>
+    <p class="main-site-title">Goole's Premier Community Radio <br/>
         <span>
           <a href="http://www.internet-radio.com" title="Internet Radio" target="_blank">
             <img src="http://www.internet-radio.com/images/internet-radio-badge.gif" alt="Internet Radio">
           </a>
         </span>
-      </p>
+    </p>
 
-      <div id="radio-player" class="section section--radio-player">
+    <div id="radio-player" class="section section--radio-player">
         <div class="live-now">
-          <div class="on-air-sign on-air"><p>On Air</p></div>
+            <div class="on-air-sign on-air"><p>On Air</p></div>
 
-          <p class="live-now-info">
-            <span id="host" class="show-host"></span>
-            <span id="show-title" class="show-name"></span>
-          </p>
+            <p class="live-now-info">
+                <span id="host" class="show-host"></span>
+                <span id="show-title" class="show-name"></span>
+            </p>
         </div>
         <script src="https://embed.radio.co/player/4ef467d.js"></script>
-      </div>
+    </div>
 
-      <div id="about-us" class="section section--about">
+    <div id="about-us" class="section section--about">
         <div class="about-container">
-          <h2>About</h2>
-          <p>
-            Welcome to Phoenix Community Radio. We are Goole's premier internet
-            radio service. We were formed in July 2022 by a band of volunteers
-            dedicated to lifting community aspirations and providing
-            entertainment.
-            <br /><br />
-            Our volunteer presenters bring you shows ranging from classic rock,
-            to indie music, to dance tunes, and everything in between. We also
-            do interviews, news, and sports shows where we bring community
-            members together to shine a light on their wonderful work.
-            <br /><br />
-            We are based in Carlisle House, Goole, East Yorkshire but our shows
-            reach across the UK. If you would like to help support a show
-            through sponsorship or even join as a volunteer presenter please
-            reach out to us
-            <a href="mailto:phoenixradiogoole@gmail.com">via email</a> or use
-            the contact form above. You can also reach us via our
-            <a href="https://www.facebook.com/phoenixradiogoole"
-              >Facebook page</a
-            >
-          </p>
+            <h2>About</h2>
+            <p>
+                Welcome to Phoenix Community Radio. We are Goole's premier internet
+                radio service. We were formed in July 2022 by a band of volunteers
+                dedicated to lifting community aspirations and providing
+                entertainment.
+                <br/><br/>
+                Our volunteer presenters bring you shows ranging from classic rock,
+                to indie music, to dance tunes, and everything in between. We also
+                do interviews, news, and sports shows where we bring community
+                members together to shine a light on their wonderful work.
+                <br/><br/>
+                We are based in Carlisle House, Goole, East Yorkshire but our shows
+                reach across the UK. If you would like to help support a show
+                through sponsorship or even join as a volunteer presenter please
+                reach out to us
+                <a href="mailto:phoenixradiogoole@gmail.com">via email</a> or use
+                the contact form above. You can also reach us via our
+                <a href="https://www.facebook.com/phoenixradiogoole"
+                >Facebook page</a
+                >
+            </p>
         </div>
-      </div>
+    </div>
 
-      <div id="shows" class="section section-shows">
+    <div id="shows" class="section section-shows">
         <div class="shows-container">
-          <h2>Shows</h2>
-          <div class="shows-grid">
-            <div class="show">
-              <img
-                class="presenter-profile-pic"
-                src="assets/images/presenters/maureenBrown.jpg"
-                alt=""
-              />
-              <div class="show-content">
-                <h3 class="show-title">Maureen Meets</h3>
-                <p class="show-description">
-                  Chat sprinkled with music, our very own Desert Island Discs if
-                  you prefer! Join Maureen as she speaks with inspirational
-                  people across our local region - all for our community's
-                  benefit.
-                </p>
-                <p class="show-info">
-                  <span>Mondays, Wednesdays and Fridays</span>
-                  <span>1pm - 3pm</span>
-                </p>
-              </div>
+            <h2>Shows</h2>
+            <div class="shows-grid">
+                <div class="show">
+                    <img
+                            class="presenter-profile-pic"
+                            src="assets/images/presenters/maureenBrown.jpg"
+                            alt=""
+                    />
+                    <div class="show-content">
+                        <h3 class="show-title">Maureen Meets</h3>
+                        <p class="show-description">
+                            Chat sprinkled with music, our very own Desert Island Discs if
+                            you prefer! Join Maureen as she speaks with inspirational
+                            people across our local region - all for our community's
+                            benefit.
+                        </p>
+                        <p class="show-info">
+                            <span>Mondays, Wednesdays and Fridays</span>
+                            <span>1pm - 3pm</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="show">
+                    <img
+                            class="presenter-profile-pic"
+                            src="assets/images/presenters/julieShaw.jpg"
+                            alt=""
+                    />
+                    <div class="show-content">
+                        <h3 class="show-title">Alt Music</h3>
+                        <p class="show-description">
+                            Julie Shaw is here for your fix of Ska, Scooter, Indy and
+                            everything in between. So get grooving to some chill tunes and
+                            get off your feet for the fast ones. There's something for
+                            everyone.
+                        </p>
+                        <p class="show-info">
+                            <span>Wednesdays and Thursdays</span>
+                            <span>6pm - 8pm</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="show">
+                    <img
+                            class="presenter-profile-pic"
+                            src="assets/images/presenters/gazBrown.jpg"
+                            alt=""
+                    />
+                    <div class="show-content">
+                        <h3 class="show-title">Super Seventies</h3>
+                        <p class="show-description">
+                            Gary Brown is our man with the classics from what he would
+                            call the greatest era in music. If it ruled the airwaves in
+                            the 1970s you can bet he's got it covered.
+                        </p>
+                        <p class="show-info">
+                            <span>Mondays, Wednesdays, and Fridays</span>
+                            <span>11am - 1pm</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="show">
+                    <img
+                            class="presenter-profile-pic"
+                            src="assets/images/presenters/emma.jpg"
+                            alt=""
+                    />
+                    <div class="show-content">
+                        <h3 class="show-title">Pop of the Ages</h3>
+                        <p class="show-description">
+                            Have a blast with Emma as she takes you on a journey through
+                            pop as you've never experienced it before including all the
+                            emerging artists you can find on future album favourites!
+                        </p>
+                        <p class="show-info">
+                            <span>Tuesdays</span>
+                            <span>12pm - 2pm</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="show">
+                    <img
+                            class="presenter-profile-pic"
+                            src="assets/images/presenters/lewisKellet.jpg"
+                            alt=""
+                    />
+                    <div class="show-content">
+                        <h3 class="show-title">Cinema Soundtrack</h3>
+                        <p class="show-description">
+                            Join Lewis Kellett as he kicks off the weekend playing popular
+                            music from cinema's greatest offerings. With a helping of
+                            conversation about film, television and entertainment, it is
+                            surely the best way to start your weekend?
+                        </p>
+                        <p class="show-info">
+                            <span>Saturdays</span>
+                            <span>8am - 10am</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="show">
+                    <img
+                            class="presenter-profile-pic"
+                            src="assets/images/presenters/barbaraJeffreys.jpg"
+                            alt=""
+                    />
+                    <div class="show-content">
+                        <h3 class="show-title">Light Classics</h3>
+                        <p class="show-description">
+                            Join Barbara for two hours of classical pieces to soothe,
+                            relax and inspire. Pieces ranging from musicals, opera,
+                            operetta, classical, inspirational, and British light
+                            classics.
+                        </p>
+                        <p class="show-info">
+                            <span>Fridays</span>
+                            <span>9am - 11am</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="show">
+                    <img
+                            class="presenter-profile-pic"
+                            src="assets/images/presenters/victoriaAnne.jpg"
+                            alt=""
+                    />
+                    <div class="show-content">
+                        <h3 class="show-title">Vic and Mix</h3>
+                        <p class="show-description">
+                            The sky is the limit on Tuesday nights with Vicki bringing you a mish mash of songs from the
+                            1960's to current hits. Tune in to see what's playing - rock, pop, metal, reggae and more.
+                        </p>
+                        <p class="show-info">
+                            <span>Tuesdays</span>
+                            <span>9-11pm</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="show">
+                    <img
+                            class="presenter-profile-pic"
+                            src="assets/images/presenters/bibhashDash.jpg"
+                            alt=""
+                    />
+                    <div class="show-content">
+                        <h3 class="show-title">Sports Talk</h3>
+                        <p class="show-description">
+                            Bibhash is a sports nut who loves talking
+                            about...sport! Join in as he and guests preview the weekend's sporting
+                            action including your local Goole teams and all best from the
+                            rest of the UK. Previews, reviews, and opinions galore.
+                        </p>
+                        <p class="show-info">
+                            <span>Fridays</span>
+                            <span>3pm - 4pm</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="show">
+                    <img
+                            class="presenter-profile-pic"
+                            src="assets/images/presenters/paulReedman.jpeg"
+                            alt=""
+                    />
+                    <div class="show-content">
+                        <h3 class="show-title">The Sunday Sesh</h3>
+                        <p class="show-description">
+                            Dance music fans are in for a treat as DJ Reeders takes you on
+                            a trip down memory lane for all those clubbers out there.
+                            Playing 90s and noughties club anthems, clubland and bounce.
+                            He’ll be sure to get ya goosebumps going!
+                        </p>
+                        <p class="show-info">
+                            <span>Sundays</span>
+                            <span>9-11pm</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="show">
+                    <img
+                            class="presenter-profile-pic"
+                            src="assets/images/presenters/victoriaAnne.jpg"
+                            alt=""
+                    />
+                    <div class="show-content">
+                        <h3 class="show-title">Exciting Eighties</h3>
+                        <p class="show-description">
+                            It's all about the 80's. Join Vicki as she takes you on a rollercoaster ride of the hit
+                            music from this decade. Whether it's a blast from the past or new to you, it's a fab
+                            collection.
+                        </p>
+                        <p class="show-info">
+                            <span>Mondays</span>
+                            <span>9-11pm</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="show">
+                    <img
+                            class="presenter-profile-pic"
+                            src="assets/images/presenters/wayneScarce.jpg"
+                            alt=""
+                    />
+                    <div class="show-content">
+                        <h3 class="show-title">Music and Musings</h3>
+                        <p class="show-description">
+                            Ever wondered what it's like to have music from across the generations with also a
+                            brain teaser thrown in? Well wonder no more! DJ Maverick is here to entertain you with your
+                            favourite tracks but don't forget to bring your puzzle and quizzing brains along as well.
+                        </p>
+                        <p class="show-info">
+                            <span>Thursdays</span>
+                            <span>10-12pm</span>
+                        </p>
+                    </div>
+                </div>
             </div>
-            <div class="show">
-              <img
-                class="presenter-profile-pic"
-                src="assets/images/presenters/julieShaw.jpg"
-                alt=""
-              />
-              <div class="show-content">
-                <h3 class="show-title">Alt Music</h3>
-                <p class="show-description">
-                  Julie Shaw is here for your fix of Ska, Scooter, Indy and
-                  everything in between. So get grooving to some chill tunes and
-                  get off your feet for the fast ones. There's something for
-                  everyone.
-                </p>
-                <p class="show-info">
-                  <span>Wednesdays and Thursdays</span>
-                  <span>6pm - 8pm</span>
-                </p>
-              </div>
-            </div>
-            <div class="show">
-              <img
-                class="presenter-profile-pic"
-                src="assets/images/presenters/gazBrown.jpg"
-                alt=""
-              />
-              <div class="show-content">
-                <h3 class="show-title">Super Seventies</h3>
-                <p class="show-description">
-                  Gary Brown is our man with the classics from what he would
-                  call the greatest era in music. If it ruled the airwaves in
-                  the 1970s you can bet he's got it covered.
-                </p>
-                <p class="show-info">
-                  <span>Mondays, Wednesdays, and Fridays</span>
-                  <span>11am - 1pm</span>
-                </p>
-              </div>
-            </div>
-            <div class="show">
-              <img
-                class="presenter-profile-pic"
-                src="assets/images/presenters/emma.jpg"
-                alt=""
-              />
-              <div class="show-content">
-                <h3 class="show-title">Pop of the Ages</h3>
-                <p class="show-description">
-                  Have a blast with Emma as she takes you on a journey through
-                  pop as you've never experienced it before including all the
-                  emerging artists you can find on future album favourites!
-                </p>
-                <p class="show-info">
-                  <span>Tuesdays</span>
-                  <span>12pm - 2pm</span>
-                </p>
-              </div>
-            </div>
-            <div class="show">
-              <img
-                class="presenter-profile-pic"
-                src="assets/images/presenters/lewisKellet.jpg"
-                alt=""
-              />
-              <div class="show-content">
-                <h3 class="show-title">Cinema Soundtrack</h3>
-                <p class="show-description">
-                  Join Lewis Kellett as he kicks off the weekend playing popular
-                  music from cinema's greatest offerings. With a helping of
-                  conversation about film, television and entertainment, it is
-                  surely the best way to start your weekend?
-                </p>
-                <p class="show-info">
-                  <span>Saturdays</span>
-                  <span>8am - 10am</span>
-                </p>
-              </div>
-            </div>
-            <div class="show">
-              <img
-                class="presenter-profile-pic"
-                src="assets/images/presenters/barbaraJeffreys.jpg"
-                alt=""
-              />
-              <div class="show-content">
-                <h3 class="show-title">Light Classics</h3>
-                <p class="show-description">
-                  Join Barbara for two hours of classical pieces to soothe,
-                  relax and inspire. Pieces ranging from musicals, opera,
-                  operetta, classical, inspirational, and British light
-                  classics.
-                </p>
-                <p class="show-info">
-                  <span>Fridays</span>
-                  <span>9am - 11am</span>
-                </p>
-              </div>
-            </div>
-            <div class="show">
-              <img
-                      class="presenter-profile-pic"
-                      src="assets/images/presenters/victoriaAnne.jpg"
-                      alt=""
-              />
-              <div class="show-content">
-                <h3 class="show-title">Vic and Mix</h3>
-                <p class="show-description">
-                  The sky is the limit on Tuesday nights with Vicki bringing you a mish mash of songs from the 1960's to current hits. Tune in to see what's playing - rock, pop, metal, reggae and more.
-                </p>
-                <p class="show-info">
-                  <span>Tuesdays</span>
-                  <span>9-11pm</span>
-                </p>
-              </div>
-            </div>
-            <div class="show">
-              <img
-                class="presenter-profile-pic"
-                src="assets/images/presenters/bibhashDash.jpg"
-                alt=""
-              />
-              <div class="show-content">
-                <h3 class="show-title">Sports Talk</h3>
-                <p class="show-description">
-                  Bibhash is a sports nut who loves talking
-                  about...sport! Join in as he and guests preview the weekend's sporting
-                  action including your local Goole teams and all best from the
-                  rest of the UK. Previews, reviews, and opinions galore.
-                </p>
-                <p class="show-info">
-                  <span>Fridays</span>
-                  <span>3pm - 4pm</span>
-                </p>
-              </div>
-            </div>
-            <div class="show">
-              <img
-                class="presenter-profile-pic"
-                src="assets/images/presenters/paulReedman.jpeg"
-                alt=""
-              />
-              <div class="show-content">
-                <h3 class="show-title">The Sunday Sesh</h3>
-                <p class="show-description">
-                  Dance music fans are in for a treat as DJ Reeders takes you on
-                  a trip down memory lane for all those clubbers out there.
-                  Playing 90s and noughties club anthems, clubland and bounce.
-                  He’ll be sure to get ya goosebumps going!
-                </p>
-                <p class="show-info">
-                  <span>Sundays</span>
-                  <span>9-11pm</span>
-                </p>
-              </div>
-            </div>
-            <div class="show">
-              <img
-                      class="presenter-profile-pic"
-                      src="assets/images/presenters/victoriaAnne.jpg"
-                      alt=""
-              />
-              <div class="show-content">
-                <h3 class="show-title">Exciting Eighties</h3>
-                <p class="show-description">
-                  It's all about the 80's. Join Vicki as she takes you on a rollercoaster ride of the hit music from this decade. Whether it's a blast from the past or new to you, it's a fab collection.
-                </p>
-                <p class="show-info">
-                  <span>Mondays</span>
-                  <span>9-11pm</span>
-                </p>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
+    </div>
 
-      <div id="team" class="section section--team">
+    <div id="team" class="section section--team">
         <h2>Team</h2>
         <div class="team-container">
-          <p class="team-member">
-            <span class="team-member-name">Maureen Brown</span>
-            <span class="team-member-role">Chairperson / Presenter</span>
-          </p>
-          <p class="team-member">
-            <span class="team-member-name">Julie Shaw</span>
-            <span class="team-member-role">Vice-Chairperson / Presenter</span>
-          </p>
-          <p class="team-member">
-            <span class="team-member-name">Gary Brown</span>
-            <span class="team-member-role">Secretary / Presenter</span>
-          </p>
-          <p class="team-member">
-            <span class="team-member-name">Bibhash Dash</span>
-            <span class="team-member-role"
-              >Station Manager / Presenter </span
-            >
-          </p>
-          <p class="team-member">
-            <span class="team-member-name">Jason Revell</span>
-            <span class="team-member-role">Marketing</span>
-          </p>
-          <p class="team-member">
-            <span class="team-member-name">Emma Sams</span>
-            <span class="team-member-role">Presenter</span>
-          </p>
-          <p class="team-member">
-            <span class="team-member-name">Lewis Kellet</span>
-            <span class="team-member-role">Presenter</span>
-          </p>
-          <p class="team-member">
-            <span class="team-member-name">Barbara Jeffreys</span>
-            <span class="team-member-role">Presenter</span>
-          </p>
-          <p class="team-member">
-            <span class="team-member-name">Paul Reedman</span>
-            <span class="team-member-role">Presenter</span>
-          </p><p class="team-member">
-            <span class="team-member-name">Victoria Anne</span>
-            <span class="team-member-role">Presenter</span>
-          </p>
+            <p class="team-member">
+                <span class="team-member-name">Maureen Brown</span>
+                <span class="team-member-role">Chairperson / Presenter</span>
+            </p>
+            <p class="team-member">
+                <span class="team-member-name">Julie Shaw</span>
+                <span class="team-member-role">Vice-Chairperson / Presenter</span>
+            </p>
+            <p class="team-member">
+                <span class="team-member-name">Gary Brown</span>
+                <span class="team-member-role">Secretary / Presenter</span>
+            </p>
+            <p class="team-member">
+                <span class="team-member-name">Bibhash Dash</span>
+                <span class="team-member-role"
+                >Station Manager / Presenter </span
+                >
+            </p>
+            <p class="team-member">
+                <span class="team-member-name">Jason Revell</span>
+                <span class="team-member-role">Marketing</span>
+            </p>
+            <p class="team-member">
+                <span class="team-member-name">Emma Sams</span>
+                <span class="team-member-role">Presenter</span>
+            </p>
+            <p class="team-member">
+                <span class="team-member-name">Lewis Kellet</span>
+                <span class="team-member-role">Presenter</span>
+            </p>
+            <p class="team-member">
+                <span class="team-member-name">Barbara Jeffreys</span>
+                <span class="team-member-role">Presenter</span>
+            </p>
+            <p class="team-member">
+                <span class="team-member-name">Paul Reedman</span>
+                <span class="team-member-role">Presenter</span>
+            </p>
+            <p class="team-member">
+                <span class="team-member-name">Victoria Anne</span>
+                <span class="team-member-role">Presenter</span>
+            </p>
+            <p class="team-member">
+                <span class="team-member-name">Wayne Scarce</span>
+                <span class="team-member-role">Presenter</span>
+            </p>
         </div>
-      </div>
-    </main>
-    <footer>
-      <div class="footer-nav">
+    </div>
+</main>
+<footer>
+    <div class="footer-nav">
         <div class="nav-item active">
-          <a href="#radio-player">
+            <a href="#radio-player">
             <span class="material-icons nav-icon material-icons-outlined">
               radio
             </span>
-          </a>
-          <p class="nav-item-text nav-item-text__active">Radio</p>
+            </a>
+            <p class="nav-item-text nav-item-text__active">Radio</p>
         </div>
         <div class="nav-item">
-          <a href="#about-us">
+            <a href="#about-us">
             <span class="material-icons nav-item material-icons-outlined">
               info
             </span>
-          </a>
-          <p class="nav-item-text">About</p>
+            </a>
+            <p class="nav-item-text">About</p>
         </div>
         <div class="nav-item">
-          <a href="#shows">
+            <a href="#shows">
             <span class="material-icons nav-item material-icons-outlined">
               queue_music
             </span>
-          </a>
-          <p class="nav-item-text">Shows</p>
+            </a>
+            <p class="nav-item-text">Shows</p>
         </div>
         <div class="nav-item">
-          <a href="#team">
+            <a href="#team">
             <span class="material-icons nav-item material-icons-outlined">
               groups
             </span>
-          </a>
-          <p class="nav-item-text">Team</p>
+            </a>
+            <p class="nav-item-text">Team</p>
         </div>
-      </div>
-    </footer>
+    </div>
+</footer>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
-    <script src="script.js"></script>
-  </body>
+<script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"
+></script>
+<script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+<script src="script.js"></script>
+</body>
 </html>
