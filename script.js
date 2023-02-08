@@ -28,20 +28,6 @@ const shows = [
     showEndHour: 14,
   },
   {
-    showName: "Cinema Soundtrack",
-    showHost: "DJ Lewis Kellett",
-    showDays: ["Saturday"],
-    showStartHour: 8,
-    showEndHour: 10,
-  },
-  {
-    showName: "Sally's Evening Chill",
-    showHost: "DJ Sally Mollan",
-    showDays: ["Monday", "Friday"],
-    showStartHour: 19,
-    showEndHour: 21,
-  },
-  {
     showName: "Light Classics",
     showHost: "DJ Barbara Jeffreys",
     showDays: ["Friday"],
@@ -54,13 +40,6 @@ const shows = [
     showDays: ["Friday"],
     showStartHour: 15,
     showEndHour: 16,
-  },
-  {
-    showName: "Clubland Kaos",
-    showHost: "DJ Martin",
-    showDays: ["Monday"],
-    showStartHour: 15,
-    showEndHour: 17,
   },
   {
     showName: "The Sunday Sesh",
