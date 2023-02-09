@@ -69,6 +69,20 @@ const shows = [
     showStartHour: 10,
     showEndHour: 12,
   },
+  {
+    showName: "Becca's Bangerz",
+    showHost: "DJ BettyGee",
+    showDays: ["Thursday"],
+    showStartHour: 20,
+    showEndHour: 22,
+  },
+  {
+    showName: "Becca's Bangerz",
+    showHost: "DJ BettyGee",
+    showDays: ["Sunday"],
+    showStartHour: 19,
+    showEndHour: 21,
+  },
 ];
 
 let currentDay;
