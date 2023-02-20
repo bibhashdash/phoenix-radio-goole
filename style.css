@@ -277,7 +277,7 @@ a {
 }
 
 input,
-textarea {
+textarea, select {
   border-radius: 10px;
   border: none;
   padding: 1rem;
