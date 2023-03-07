@@ -83,6 +83,13 @@ const shows = [
     showStartHour: 19,
     showEndHour: 21,
   },
+  {
+    showName: "River Sounds",
+    showHost: "Coracle Pete",
+    showDays: ["Tuesday"],
+    showStartHour: 19,
+    showEndHour: 21,
+  },
 ];
 
 let currentDay;
