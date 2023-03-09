@@ -33,6 +33,7 @@ body {
   height: 100%;
   width: 100vw;
   background-color: rgba(0, 0, 0, 0.89);
+  overflow: auto;
 }
 .contact-us-modal-content {
   padding: 0;
@@ -41,6 +42,7 @@ body {
   align-items: center;
   width: 100%;
   max-width: 600px;
+  overflow: auto;
 }
 .form-disclaimer {
   margin-top: 2rem;
