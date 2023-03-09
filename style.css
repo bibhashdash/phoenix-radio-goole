@@ -63,6 +63,12 @@ body {
   margin-top: 2rem;
   font-size: 0.8rem;
 }
+
+.chat-modal-close {
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
 @media screen and (max-width: 568px) {
   .contact-us-modal-content {
     padding: 0;
