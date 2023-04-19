@@ -139,12 +139,20 @@
                 <span id="show-title" class="show-name"></span>
             </p>
         </div>
-                <script src="https://embed.radio.co/player/4ef467d.js"></script>
+        <!--                <script src="https://embed.radio.co/player/4ef467d.js"></script>-->
         <!--        <script src="https://embed.radio.co/embed/sbdb4cc406/status.js"></script>-->
-<!--        <div class="radioplayer" data-src="https://s2.radio.co/sbdb4cc406/listen"-->
-<!--             data-autoplay="false" data-playbutton="true" data-volumeslider="true" data-elapsedtime="true"-->
-<!--             data-nowplaying="false" data-showplayer="true" data-volume="50" data-showartwork="false"></div>-->
-<!--    </div>-->
+        <div class="radioplayer" data-src="https://s2.radio.co/sbdb4cc406/listen"
+             data-autoplay="false" data-playbutton="true"
+             data-nowplaying="false" data-showplayer="true" data-showartwork="false">
+            <div class="radioco-playButton">
+                <div class="radioco-playButton-playing">
+                    <span class="material-icons material-icons-outlined">
+play_circle_filled
+</span>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <div id="about-us" class="section section--about">
         <div class="about-container">
@@ -536,12 +544,13 @@
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
         crossorigin="anonymous"
 ></script>
-<script src="script.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://public.radio.co/playerapi/jquery.radiocoplayer.min.js"></script>
+<script>$('.radioplayer').radiocoPlayer();</script>
+<script src="script.js"></script>
+
 <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
 
-<script>$('.radioplayer').radiocoPlayer();</script>
 </body>
 
 </html>
