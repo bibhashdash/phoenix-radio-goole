@@ -203,6 +203,9 @@ a {
   color: var(--accent-color);
   font-weight: bold;
 }
+.show-host {
+  color: var(--main-color);
+}
 
 .section--radio-player {
   width: 90vw;
@@ -212,58 +215,48 @@ a {
   align-items: center;
   padding-top: 0;
 }
-.radioplayer {
-  /*background: #F4F4F4;*/
-  background-position: center center !important;
-  background-repeat: no-repeat !important;
-  background-size: cover !important;
-  border-radius: 100px;
-  /*box-shadow: #ccc 10px 10px 20px;*/
-  height: 109px;
-  khtml-user-select: none;
-  moz-user-select: none;
-  ms-user-select: none;
-  overflow: hidden;
-  /*padding: 20px;*/
-  user-select: none;
-  webkit-touch-callout: none;
-  webkit-user-select: none;
-  width: 100px;
+.radio-player-container {
+  width: 200px;
+  height: 100px;
 }
 
 .radioco-playButton {
-  box-shadow: #111 1px 1px 10px;
-  color: #fff;
-  font-size: 50px;
-  margin-left: 10.5%;
-  position: relative;
-  text-align: left;
-  /*top: 30px;*/
   z-index: 2;
 }
 .radioco-playButton:active {
   color: #ccc;
 }
-/*.radioco-playButton-playing:before {*/
-/*  content: "\f04b";*/
-/*  font-family: 'FontAwesome', sans-serif;*/
-/*}*/
-/*.radioco-playButton-paused:before {*/
-/*  content: "\f04c";*/
-/*  font-family: 'FontAwesome', sans-serif;*/
-/*}*/
-.radioco-playButton-playing {
-  color: rgba(255, 255, 255, 1);
-  position: absolute;
-  text-shadow: black 2px 2px 50px;
-  font-size: 150%;
-  /*text-size: 150%;*/
+.radioco-playButton-playing:before{
+  /*font-family: 'FontAwesome', sans-serif;*/
+  content: url("./assets/icons/play_circle_filled_black_24dp.svg");
+  /*font-size: 48px;*/
+  position: relative;
+  /*left: 50%;*/
 }
-.radioco-playButton-paused {
-  position: absolute;
-  text-shadow: black 2px 2px 50px;
-  text-size: 150%;
+
+.radioco-playButton-paused:before{
+  /*font-family: 'FontAwesome', sans-serif;*/
+  content: url("./assets/icons/pause_black_24dp.svg");
 }
+
+.radioco-playButton{
+  /*color: red;*/
+  /*position: relative;*/
+  /*text-align: left;*/
+  /*z-index: 2;*/
+  /*font-size:50px;*/
+}
+
+.radioco-playButton:active{
+  color:#39596b;
+}
+
+.radioco-playButton-playing{
+
+  /*border: 1px solid white;*/
+}
+
+
 .section--about {
   padding: 5%;
 }
