@@ -139,7 +139,11 @@
                 <span id="show-title" class="show-name"></span>
             </p>
         </div>
-        <script src="https://embed.radio.co/player/4ef467d.js"></script>
+        <!--        <script src="https://embed.radio.co/player/4ef467d.js"></script>-->
+        <!--        <script src="https://embed.radio.co/embed/sbdb4cc406/status.js"></script>-->
+        <div class="radioplayer" data-src="https://s2.radio.co/sbdb4cc406/listen"
+             data-autoplay="false" data-playbutton="true" data-volumeslider="true" data-elapsedtime="true"
+             data-nowplaying="false" data-showplayer="true" data-volume="50" data-showartwork="false"></div>
     </div>
 
     <div id="about-us" class="section section--about">
@@ -415,7 +419,9 @@
                     <div class="show-content">
                         <h3 class="show-title">River Sounds</h3>
                         <p class="show-description">
-                            Local and regional bands plus requests for the big names and the obscure. Listen to original sounds from musicians, poets, and storytellers feeding the Ouse to the Humber, and on to sea. Music, spoken word, new releases, and gigs across Yorkshire and beyond.
+                            Local and regional bands plus requests for the big names and the obscure. Listen to original
+                            sounds from musicians, poets, and storytellers feeding the Ouse to the Humber, and on to
+                            sea. Music, spoken word, new releases, and gigs across Yorkshire and beyond.
                             Your family, folk and spirit.
                             This is River Sound, this is yours, this is you.
                         </p>
@@ -530,7 +536,12 @@
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
         crossorigin="anonymous"
 ></script>
-<script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
 <script src="script.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://public.radio.co/playerapi/jquery.radiocoplayer.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+
+<script>$('.radioplayer').radiocoPlayer();</script>
 </body>
+
 </html>

@@ -212,6 +212,11 @@ a {
   align-items: center;
   padding-top: 0;
 }
+.radioplayer {
+  width: 300px;
+  height: 200px;
+}
+
 
 .section--about {
   padding: 5%;
