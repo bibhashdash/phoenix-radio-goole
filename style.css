@@ -164,6 +164,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 2rem;
   /* border: 1px solid white; */
 }
 
