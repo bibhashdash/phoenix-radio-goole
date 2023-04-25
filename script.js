@@ -70,14 +70,14 @@ const shows = [
     showEndHour: 12,
   },
   {
-    showName: "Becca's Bangerz",
+    showName: "Betty Gee's ChatTrap Show",
     showHost: "DJ BettyGee",
     showDays: ["Thursday"],
     showStartHour: 20,
     showEndHour: 22,
   },
   {
-    showName: "Becca's Bangerz",
+    showName: "Betty Gee's ChatTrap Show",
     showHost: "DJ BettyGee",
     showDays: ["Sunday"],
     showStartHour: 19,
