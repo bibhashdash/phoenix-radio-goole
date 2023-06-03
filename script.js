@@ -90,6 +90,13 @@ const shows = [
     showStartHour: 19,
     showEndHour: 21,
   },
+  {
+    showName: "Digital Daze",
+    showHost: "Kelle, Emperor of the Universe",
+    showDays: ["Saturday"],
+    showStartHour: 19,
+    showEndHour: 21,
+  },
 ];
 
 let currentDay;
