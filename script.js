@@ -42,13 +42,6 @@ const shows = [
     showEndHour: 16,
   },
   {
-    showName: "The Sunday Sesh",
-    showHost: "DJ Reeders",
-    showDays: ["Sunday"],
-    showStartHour: 21,
-    showEndHour: 23,
-  },
-  {
     showName: "Exciting Eighties",
     showHost: "DJ Victoria Anne",
     showDays: ["Monday"],
