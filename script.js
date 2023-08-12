@@ -21,18 +21,18 @@ const shows = [
     showEndHour: 13,
   },
   {
-    showName: "Pop of the Ages",
-    showHost: "DJ Emma",
-    showDays: ["Tuesday"],
-    showStartHour: 12,
-    showEndHour: 14,
-  },
-  {
     showName: "Light Classics",
     showHost: "DJ Barbara Jeffreys",
     showDays: ["Friday"],
     showStartHour: 9,
     showEndHour: 11,
+  },
+  {
+    showName: "Light Classics",
+    showHost: "DJ Barbara Jeffreys",
+    showDays: ["Tuesday"],
+    showStartHour: 14,
+    showEndHour: 16,
   },
   {
     showName: "Sports Talk",
