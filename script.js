@@ -2,9 +2,9 @@ const shows = [
   {
     showName: "Maureen Meets",
     showHost: "DJ Maureen Brown",
-    showDays: ["Monday", "Wednesday", "Friday"],
-    showStartHour: 13,
-    showEndHour: 15,
+    showDays: ["Monday", "Wednesday"],
+    showStartHour: 12,
+    showEndHour: 14,
   },
   {
     showName: "Alt Mix",
@@ -16,9 +16,9 @@ const shows = [
   {
     showName: "Total Decades 50s - 90s",
     showHost: "DJ Gary Brown",
-    showDays: ["Monday", "Wednesday", "Friday"],
-    showStartHour: 11,
-    showEndHour: 13,
+    showDays: ["Monday", "Wednesday"],
+    showStartHour: 10,
+    showEndHour: 12,
   },
   {
     showName: "Light Classics",
@@ -31,15 +31,15 @@ const shows = [
     showName: "Light Classics",
     showHost: "DJ Barbara Jeffreys",
     showDays: ["Tuesday"],
-    showStartHour: 14,
-    showEndHour: 16,
+    showStartHour: 12,
+    showEndHour: 14,
   },
   {
     showName: "Sports Talk",
     showHost: "Bibhash",
-    showDays: ["Friday"],
-    showStartHour: 15,
-    showEndHour: 16,
+    showDays: ["Thursday"],
+    showStartHour: 12,
+    showEndHour: 14,
   },
   {
     showName: "Exciting Eighties",
@@ -94,8 +94,8 @@ const shows = [
     showName: "Treasures and Gems",
     showHost: "DJ Leigh",
     showDays: ["Monday"],
-    showStartHour: 19,
-    showEndHour: 21,
+    showStartHour: 18,
+    showEndHour: 20,
   },
 ];
 
