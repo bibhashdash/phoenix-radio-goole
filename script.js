@@ -97,6 +97,13 @@ const shows = [
     showStartHour: 18,
     showEndHour: 20,
   },
+  {
+    showName: "The Motown and Soul Show",
+    showHost: "DJs Rob and Becky",
+    showDays: ["Wednesday"],
+    showStartHour: 20,
+    showEndHour: 22,
+  },
 ];
 
 let currentDay;
