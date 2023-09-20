@@ -43,14 +43,14 @@ const shows = [
   },
   {
     showName: "Exciting Eighties",
-    showHost: "DJ Victoria Anne",
+    showHost: "DJ Vic Vixen",
     showDays: ["Monday"],
-    showStartHour: 21,
-    showEndHour: 23,
+    showStartHour: 20,
+    showEndHour: 22,
   },
   {
     showName: "Vic and Mix",
-    showHost: "DJ Victoria Anne",
+    showHost: "DJ Vic Vixen",
     showDays: ["Tuesday"],
     showStartHour: 21,
     showEndHour: 23,
