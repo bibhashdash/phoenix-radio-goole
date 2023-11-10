@@ -39,7 +39,7 @@ const shows = [
     showHost: "Bibhash",
     showDays: ["Thursday"],
     showStartHour: 12,
-    showEndHour: 14,
+    showEndHour: 13,
   },
   {
     showName: "Exciting Eighties",
@@ -74,7 +74,7 @@ const shows = [
     showHost: "DJ BettyGee",
     showDays: ["Friday"],
     showStartHour: 21,
-    showEndHour: 24,
+    showEndHour: 23,
   },
   {
     showName: "River Sounds",
