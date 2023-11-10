@@ -23,14 +23,7 @@ const shows = [
   {
     showName: "Light Classics",
     showHost: "DJ Barbara Jeffreys",
-    showDays: ["Friday"],
-    showStartHour: 10,
-    showEndHour: 12,
-  },
-  {
-    showName: "Light Classics",
-    showHost: "DJ Barbara Jeffreys",
-    showDays: ["Tuesday"],
+    showDays: ["Tuesday", "Friday"],
     showStartHour: 10,
     showEndHour: 12,
   },
