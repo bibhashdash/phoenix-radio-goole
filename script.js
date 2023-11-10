@@ -31,8 +31,8 @@ const shows = [
     showName: "Light Classics",
     showHost: "DJ Barbara Jeffreys",
     showDays: ["Tuesday"],
-    showStartHour: 12,
-    showEndHour: 14,
+    showStartHour: 10,
+    showEndHour: 12,
   },
   {
     showName: "Sports Talk",
@@ -49,7 +49,7 @@ const shows = [
     showEndHour: 22,
   },
   {
-    showName: "Vic and Mix",
+    showName: "Vix Mix",
     showHost: "DJ Vic Vixen",
     showDays: ["Tuesday"],
     showStartHour: 21,
@@ -103,6 +103,13 @@ const shows = [
     showDays: ["Wednesday"],
     showStartHour: 20,
     showEndHour: 22,
+  },
+  {
+    showName: "Pick n Mix",
+    showHost: "DJs Leigh and Lisa",
+    showDays: ["Thursday"],
+    showStartHour: 18,
+    showEndHour: 20,
   },
 ];
 
