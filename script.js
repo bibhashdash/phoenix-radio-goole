@@ -9,7 +9,7 @@ const shows = [
   {
     showName: "Alt Mix",
     showHost: "DJ Julie Shaw",
-    showDays: ["Wednesday", "Thursday"],
+    showDays: ["Wednesday"],
     showStartHour: 18,
     showEndHour: 20,
   },
