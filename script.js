@@ -42,6 +42,13 @@ const shows = [
     showEndHour: 22,
   },
   {
+    showName: "Magic Roundabout",
+    showHost: "Dex Leighton",
+    showDays: ["Saturday"],
+    showStartHour: 21,
+    showEndHour: 23,
+  },
+  {
     showName: "Vix Mix",
     showHost: "DJ Vic Vixen",
     showDays: ["Tuesday"],
