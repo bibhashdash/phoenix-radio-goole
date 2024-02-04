@@ -125,6 +125,13 @@ const shows = [
     showStartHour: 8,
     showEndHour: 10,
   },
+  {
+    showName: "Musical Theatre Jukebox",
+    showHost: "DJ Imogen",
+    showDays: ["Sunday"],
+    showStartHour: 20,
+    showEndHour: 22,
+  },
 ];
 
 let currentDay;
