@@ -118,6 +118,13 @@ const shows = [
     showStartHour: 18,
     showEndHour: 20,
   },
+  {
+    showName: "Breakfast Show",
+    showHost: "Echo Mike",
+    showDays: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+    showStartHour: 8,
+    showEndHour: 10,
+  },
 ];
 
 let currentDay;
