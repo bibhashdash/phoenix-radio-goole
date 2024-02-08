@@ -132,6 +132,13 @@ const shows = [
     showStartHour: 20,
     showEndHour: 22,
   },
+  {
+    showName: "Power Pop Party",
+    showHost: "DJ Stuart",
+    showDays: ["Friday"],
+    showStartHour: 19,
+    showEndHour: 21,
+  },
 ];
 
 let currentDay;
