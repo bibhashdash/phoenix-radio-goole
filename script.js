@@ -139,6 +139,13 @@ const shows = [
     showStartHour: 19,
     showEndHour: 21,
   },
+  {
+    showName: "Salute To The Forties",
+    showHost: "DJ Lisa",
+    showDays: ["Tuesday"],
+    showStartHour: 13,
+    showEndHour: 15,
+  },
 ];
 
 let currentDay;
