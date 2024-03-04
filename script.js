@@ -122,7 +122,7 @@ const shows = [
     showName: "Breakfast Show",
     showHost: "Echo Mike",
     showDays: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-    showStartHour: 8,
+    showStartHour: 7,
     showEndHour: 10,
   },
   {
