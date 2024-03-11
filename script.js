@@ -146,6 +146,13 @@ const shows = [
     showStartHour: 13,
     showEndHour: 15,
   },
+  {
+    showName: "School Dinners Show",
+    showHost: "DJ Cashew Nuts",
+    showDays: ["Friday"],
+    showStartHour: 12,
+    showEndHour: 14,
+  },
 ];
 
 let currentDay;
