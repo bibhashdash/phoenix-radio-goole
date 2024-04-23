@@ -126,13 +126,6 @@ const shows = [
     showEndHour: 10,
   },
   {
-    showName: "Musical Theatre Jukebox",
-    showHost: "DJ Imogen",
-    showDays: ["Sunday"],
-    showStartHour: 20,
-    showEndHour: 22,
-  },
-  {
     showName: "Power Pop Party",
     showHost: "DJ Stuart",
     showDays: ["Friday"],
@@ -152,6 +145,13 @@ const shows = [
     showDays: ["Friday"],
     showStartHour: 12,
     showEndHour: 14,
+  },
+  {
+    showName: "Kai's Kool Music",
+    showHost: "DJ Kai Greenwood",
+    showDays: ["Friday"],
+    showStartHour: 14,
+    showEndHour: 16,
   },
 ];
 
