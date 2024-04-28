@@ -261,6 +261,10 @@ a {
 .section--about {
   padding: 5%;
 }
+
+.section--charity {
+  padding: 0 5%;
+}
 .about-container {
   width: 100%;
   max-width: 600px;
@@ -408,5 +412,20 @@ footer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
+  }
+}
+
+
+.charity-images {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+}
+
+@media screen and (max-width: 700px){
+  .charity-images {
+    flex-direction: column;
   }
 }
