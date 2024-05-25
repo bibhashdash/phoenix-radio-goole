@@ -27,13 +27,6 @@ const shows = [
     showStartHour: 10,
     showEndHour: 12,
   },
-  // {
-  //   showName: "Sports Talk",
-  //   showHost: "Bibhash",
-  //   showDays: ["Thursday"],
-  //   showStartHour: 12,
-  //   showEndHour: 13,
-  // },
   {
     showName: "Exciting Eighties",
     showHost: "DJ Vic Vixen",
@@ -91,25 +84,11 @@ const shows = [
     showEndHour: 21,
   },
   {
-    showName: "Treasures and Gems",
-    showHost: "DJ Leigh",
-    showDays: ["Monday"],
-    showStartHour: 18,
-    showEndHour: 20,
-  },
-  {
     showName: "The Motown and Soul Show",
     showHost: "DJs Rob and Becky",
     showDays: ["Wednesday"],
     showStartHour: 20,
     showEndHour: 22,
-  },
-  {
-    showName: "Pick n Mix",
-    showHost: "DJs Leigh and Lisa",
-    showDays: ["Thursday"],
-    showStartHour: 18,
-    showEndHour: 20,
   },
   {
     showName: "Tezza Nova",
@@ -131,13 +110,6 @@ const shows = [
     showDays: ["Friday"],
     showStartHour: 19,
     showEndHour: 21,
-  },
-  {
-    showName: "Salute To The Forties",
-    showHost: "DJ Lisa",
-    showDays: ["Tuesday"],
-    showStartHour: 13,
-    showEndHour: 15,
   },
   {
     showName: "School Dinners Show",
