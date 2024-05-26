@@ -7,13 +7,6 @@ const shows = [
     showEndHour: 14,
   },
   {
-    showName: "Alt Mix",
-    showHost: "DJ Julie Shaw",
-    showDays: ["Wednesday"],
-    showStartHour: 18,
-    showEndHour: 20,
-  },
-  {
     showName: "Total Decades 50s - 90s",
     showHost: "DJ Gary Brown",
     showDays: ["Monday", "Wednesday"],
