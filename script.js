@@ -20,13 +20,13 @@ const shows = [
     showStartHour: 10,
     showEndHour: 12,
   },
-  {
-    showName: "Exciting Eighties",
-    showHost: "DJ Vic Vixen",
-    showDays: ["Monday"],
-    showStartHour: 20,
-    showEndHour: 22,
-  },
+  // {
+  //   showName: "Exciting Eighties",
+  //   showHost: "DJ Vic Vixen",
+  //   showDays: ["Monday"],
+  //   showStartHour: 20,
+  //   showEndHour: 22,
+  // },
   {
     showName: "Magic Roundabout",
     showHost: "Dex Leighton",
@@ -34,13 +34,13 @@ const shows = [
     showStartHour: 21,
     showEndHour: 23,
   },
-  {
-    showName: "Vix Mix",
-    showHost: "DJ Vic Vixen",
-    showDays: ["Tuesday"],
-    showStartHour: 21,
-    showEndHour: 23,
-  },
+  // {
+  //   showName: "Vix Mix",
+  //   showHost: "DJ Vic Vixen",
+  //   showDays: ["Tuesday"],
+  //   showStartHour: 21,
+  //   showEndHour: 23,
+  // },
   {
     showName: "Music and Musings",
     showHost: "DJ Maverick",
