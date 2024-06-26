@@ -20,13 +20,6 @@ const shows = [
   //   showStartHour: 20,
   //   showEndHour: 22,
   // },
-  {
-    showName: "Magic Roundabout",
-    showHost: "Dex Leighton",
-    showDays: ["Saturday"],
-    showStartHour: 21,
-    showEndHour: 23,
-  },
   // {
   //   showName: "Vix Mix",
   //   showHost: "DJ Vic Vixen",
@@ -56,25 +49,11 @@ const shows = [
     showEndHour: 23,
   },
   {
-    showName: "River Sounds",
-    showHost: "Coracle Pete",
-    showDays: ["Tuesday"],
-    showStartHour: 19,
-    showEndHour: 21,
-  },
-  {
     showName: "Digital Daze",
     showHost: "Kelle, Emperor of the Universe",
     showDays: ["Saturday"],
     showStartHour: 19,
     showEndHour: 21,
-  },
-  {
-    showName: "The Motown and Soul Show",
-    showHost: "DJs Rob and Becky",
-    showDays: ["Wednesday"],
-    showStartHour: 20,
-    showEndHour: 22,
   },
   {
     showName: "Tezza Nova",
