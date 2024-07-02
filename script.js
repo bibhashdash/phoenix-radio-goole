@@ -90,6 +90,13 @@ const shows = [
     showStartHour: 14,
     showEndHour: 16,
   },
+  {
+    showName: "Mandy's Musings 'n' Music",
+    showHost: "DJ Mandy",
+    showDays: ["Sundays"],
+    showStartHour: 17,
+    showEndHour: 19,
+  },
 ];
 
 let currentDay;
