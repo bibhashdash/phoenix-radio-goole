@@ -13,20 +13,13 @@ const shows = [
     showStartHour: 10,
     showEndHour: 12,
   },
-  // {
-  //   showName: "Exciting Eighties",
-  //   showHost: "DJ Vic Vixen",
-  //   showDays: ["Monday"],
-  //   showStartHour: 20,
-  //   showEndHour: 22,
-  // },
-  // {
-  //   showName: "Vix Mix",
-  //   showHost: "DJ Vic Vixen",
-  //   showDays: ["Tuesday"],
-  //   showStartHour: 21,
-  //   showEndHour: 23,
-  // },
+  {
+    showName: "Vortex of Music",
+    showHost: "DJ Vic Vixen",
+    showDays: ["Monday"],
+    showStartHour: 19,
+    showEndHour: 22,
+  },
   {
     showName: "Music and Musings",
     showHost: "DJ Maverick",
@@ -93,7 +86,7 @@ const shows = [
   {
     showName: "Mandy's Musings 'n' Music",
     showHost: "DJ Mandy",
-    showDays: ["Sundays"],
+    showDays: ["Saturday"],
     showStartHour: 17,
     showEndHour: 19,
   },
