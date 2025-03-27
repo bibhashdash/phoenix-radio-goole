@@ -7,7 +7,7 @@
     <meta name="author" content="Phoenix Community Radio - Goole"/>
     <meta
             name="description"
-            content="Phoenix Community Radio is a local internet radio station based in Goole, East Yorkshire. We are made up of volunteer presenters showcasing their love of music and radio. We broadcast out of Carlisle House, Goole."
+            content="Phoenix Community Radio."
     />
     <link
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
@@ -49,93 +49,11 @@
     <title>Phoenix Community Radio Goole</title>
 </head>
 <body>
-<div id="chat-modal-div" class="contact-us-modal-background hidden">
-    <div class="contact-us-modal-content">
-        <div class="chat-modal-close">
-            <img
-                    id="chat-modal-close-icon"
-                    class="social-icon"
-                    src="./assets/icons/close_black_24dp.svg"
-                    alt=""
-            />
-        </div>
-        <h2>Contact</h2>
-        <p class="form-disclaimer">
-            Got a song request or a shout-out? Send 'em our way!
-        </p>
-        <form
-                name="contact-studio"
-                class="contact-form modal-contact-form"
-                action=""
-                method="POST"
-                data-netlify="true"
-                netlify
-                netlify-honeypot="bot-field"
-                data-netlify-recaptcha="true"
-        >
-            <p class="hidden">
-                <label>
-                    Don't fill this out if you're human: <input name="bot-field"/>
-                </label>
-            </p>
-            <label for="name"><p>Name:</p></label>
-            <input type="text" name="name" id="name" required placeholder="Required"/>
-            <label for="email"><p>Email:</p></label>
-            <input type="email" name="email" id="email" required placeholder="Required"/>
-            <label for="subject"><p>Subject:</p></label>
-            <select name="subject" id="subject" required placeholder="Select a subject">
-                <option value="song request">Song Request</option>
-                <option value="comment">General Comment</option>
-                <option value="volunteering">Volunteering Enquiry</option>
-                <option value="contest">Contest</option>
-            </select>
-            <label for="message"><p>Message:</p></label>
-            <textarea
-                    name="message"
-                    cols="30"
-                    rows="5"
-                    required
-                    placeholder="Required"
-                    id="message"
-            ></textarea>
-            <div class="recaptcha-div" data-netlify-recaptcha="true"></div>
-            <button class="btn" type="submit">Submit</button>
-        </form>
-        <p class="form-disclaimer">
-            Please note: After submitting this form you will be redirected away
-            from the page which means the radio will stop playing. Please click
-            the "back to our site" button to return to Phoenix.
-        </p>
-    </div>
-</div>
-<header>
-    <div class="branding">
-        <div class="logo-container">
-            <a href="https://www.phoenixcommunityradio.com/">
-                <img class="logo" src="./assets/logos/logo2.png" alt=""/>
-            </a>
-        </div>
-        <div class="social-icons-container">
-            <button id="chat-modal-icon" class="btn contact-studio-cta">
-                Contact Studio
-            </button>
-        </div>
-    </div>
-</header>
-<main>
-    <p class="main-site-title">Goole's Premier Community Radio <br/>
-        <span>
-          <a href="http://www.internet-radio.com" title="Internet Radio" target="_blank">
-            <img src="http://www.internet-radio.com/images/internet-radio-badge.gif" alt="Internet Radio">
-          </a>
-        </span>
-    </p>
-
+<main style="padding-top: 200px">
+    <a href="https://www.phoenixcommunityradio.com/">
+        <img class="logo" src="./assets/logos/logo2.png" alt=""/>
+    </a>
     <div id="radio-player" class="section section--radio-player">
-        <div class="live-now">
-            <div class="on-air-sign on-air"><p>On Air</p></div>
-        </div>
-
         <div class="radioplayer"
              data-src="https://s2.radio.co/sbdb4cc406/listen"
              data-playbutton="true"
@@ -145,357 +63,12 @@
              data-showplayer="false"
              data-volume="40"
         >
-            <p class="live-now-info">
-                <span>Now Playing...</span>
-                <span id="host" class="show-host"></span>
-                <span id="show-title" class="show-name"></span>
-            </p>
-        </div>
-
-
-    </div>
-
-    <div id="about-us" class="section section--about">
-        <div class="about-container">
-            <h2>About</h2>
-            <p>
-                Welcome to Phoenix Community Radio. We are Goole's premier internet
-                radio service. We were formed in July 2022 by a band of volunteers
-                dedicated to lifting community aspirations and providing
-                entertainment.
-                <br/><br/>
-                Our volunteer presenters bring you shows ranging from classic rock,
-                to indie music, to dance tunes, and everything in between. We also
-                do interviews, news, and sports shows where we bring community
-                members together to shine a light on their wonderful work.
-                <br/><br/>
-                We are based in Carlisle House, Goole, East Yorkshire but our shows
-                reach across the UK. If you would like to help support a show
-                through sponsorship or even join as a volunteer presenter please
-                reach out to us
-                <a href="mailto:phoenixradiogoole@gmail.com">via email</a> or use
-                the contact form above. You can also reach us via our
-                <a href="https://www.facebook.com/phoenixradiogoole"
-                >Facebook page</a
-                >
-            </p>
         </div>
     </div>
+    <p>It's been a good run. Music is life. All we need is, radio...</p>
 
-    <div id="shows" class="section section-shows">
-        <div class="shows-container">
-            <h2>Shows</h2>
-            <div class="shows-grid">
-                <div class="show">
-                    <img
-                            class="presenter-profile-pic"
-                            src="assets/images/presenters/maureenBrown.jpg"
-                            alt=""
-                    />
-                    <div class="show-content">
-                        <h3 class="show-title">Maureen Meets</h3>
-                        <p class="show-description">
-                            Chat sprinkled with music, our very own Desert Island Discs if
-                            you prefer! Join Maureen as she speaks with inspirational
-                            people across our local region - all for our community's
-                            benefit.
-                        </p>
-                        <p class="show-info">
-                            <span>Mondays, Wednesdays</span>
-                            <span>12pm - 2pm</span>
-                        </p>
-                    </div>
-                </div>
-                <div class="show">
-                    <img
-                            class="presenter-profile-pic"
-                            src="assets/images/presenters/barbaraJeffreys.jpg"
-                            alt=""
-                    />
-                    <div class="show-content">
-                        <h3 class="show-title">Light Classics</h3>
-                        <p class="show-description">
-                            Join Barbara for two hours of classical pieces to soothe,
-                            relax and inspire. Pieces ranging from musicals, opera,
-                            operetta, classical, inspirational, and British light
-                            classics.
-                        </p>
-                        <p class="show-info">
-                            <span>Fridays</span>
-                            <span>10am - 12pm</span>
-                        </p>
-                    </div>
-                </div>
-
-
-
-                <div class="show">
-                    <img
-                            class="presenter-profile-pic"
-                            src="assets/images/presenters/wayneScarce.jpg"
-                            alt=""
-                    />
-                    <div class="show-content">
-                        <h3 class="show-title">Music and Musings</h3>
-                        <p class="show-description">
-                            Ever wondered what it's like to have music from across the generations with also a
-                            brain teaser thrown in? Well wonder no more! DJ Maverick is here to entertain you with your
-                            favourite tracks but don't forget to bring your puzzle and quizzing brains along as well.
-                        </p>
-                        <p class="show-info">
-                            <span>Thursdays</span>
-                            <span>10-12pm</span>
-                        </p>
-                    </div>
-                </div>
-                <div class="show">
-                    <img
-                            class="presenter-profile-pic"
-                            src="assets/images/presenters/bettyGee.jpg"
-                            alt=""
-                    />
-                    <div class="show-content">
-                        <h3 class="show-title">Betty Gee's ChatTrap Show</h3>
-                        <p class="show-description">
-                            Becca aka Dj BettyGee bringing you the pounders, playing a mixed genre of EDM,
-                            Techno beats from across the world - funky beats to dark and hard pounders.
-                            Join us for tunes that bring back those ravin' memories!
-                        </p>
-                        <p class="show-info">
-                            <span>Thursdays 8-10pm</span>
-                            <span>Fridays 9pm-12am</span>
-                        </p>
-                    </div>
-                </div>
-                <div class="show">
-                    <img
-                            class="presenter-profile-pic"
-                            src="assets/images/presenters/mekEmperor.jpg"
-                            alt=""
-                    />
-                    <div class="show-content">
-                        <h3 class="show-title">Digital Daze</h3>
-                        <p class="show-description">
-                            Join Kelle, Emperor of the Universe for a celebration of computer music. Two hours of
-                            alternative pop, synth pop, hyperpop, digicore, technopop, and dance.
-                        </p>
-                        <p class="show-info">
-                            <span>Saturdays</span>
-                            <span>7-9pm</span>
-                        </p>
-                    </div>
-                </div>
-                <div class="show">
-                    <img
-                            class="presenter-profile-pic"
-                            src="assets/images/presenters/tezzaNova.jpg"
-                            alt=""
-                    />
-                    <div class="show-content">
-                        <h3 class="show-title">Tezza Nova</h3>
-                        <p class="show-description">
-                            A paradoxical journey with sound exploring the airwaves. Come along, get seated, relax,
-                            unwind and let the two hours enter your mind!</p>
-                        <p class="show-info">
-                            <span>Sundays</span>
-                            <span>6pm-8pm</span>
-                        </p>
-                    </div>
-                </div>
-
-                <div class="show">
-                    <img
-                            class="presenter-profile-pic"
-                            src="assets/images/presenters/edwin.jpg"
-                            alt=""
-                    />
-                    <div class="show-content">
-                        <h3 class="show-title">Breakfast Show</h3>
-                        <p class="show-description">
-                            Echo Mike (Edwin Bisby) is your breakfast show host, playing music from the 50’s - the 20’s
-                            any genre and anything in between or even what people may request. Anything from Britain,
-                            Europe, America and world wide.</p>
-                        <p class="show-info">
-                            <span>Monday to Friday</span>
-                            <span>7am - 10am</span>
-                        </p>
-                    </div>
-                </div>
-
-                <div class="show">
-                    <img
-                            class="presenter-profile-pic"
-                            src="assets/images/presenters/stuart.jpg"
-                            alt=""
-                    />
-                    <div class="show-content">
-                        <h3 class="show-title">Power Pop Party</h3>
-                        <p class="show-description">
-                            The Power Pop Party with Stuart - 2 hours of energy songs to get you in to the mood for the
-                            weekend. Music from the 70’s 80’s 90’s and all the way up to today</p>
-                        <p class="show-info">
-                            <span>Fridays</span>
-                            <span>7pm - 9pm</span>
-                        </p>
-                    </div>
-                </div>
-                <div class="show">
-                    <img
-                            class="presenter-profile-pic"
-                            src="assets/images/presenters/cashewNuts.jpg"
-                            alt=""
-                    />
-                    <div class="show-content">
-                        <h3 class="show-title">School Dinners Show</h3>
-                        <p class="show-description">
-                            All your favourite sounds from your school dinner time and disco ,including recent chart
-                            music. Enjoy your dinner with my shenanigans. All requests and shout outs welcome....keep it
-                            clean or there's detentions to be had!</p>
-                        <p class="show-info">
-                            <span>Fridays</span>
-                            <span>12pm - 2pm</span>
-                        </p>
-                    </div>
-                </div>
-                <div class="show">
-                    <img
-                            class="presenter-profile-pic"
-                            src="assets/images/presenters/kaiGreenwood.jpg"
-                            alt=""
-                    />
-                    <div class="show-content">
-                        <h3 class="show-title">Kai's Kool Music</h3>
-                        <p class="show-description">
-                            Hi I'm Kai and I'll be bringing you music from any time and any genre. We've got Arctic
-                            Monkeys, Oasis, Luke Combs and a whole lot more. Join me Fridays!</p>
-                        <p class="show-info">
-                            <span>Fridays</span>
-                            <span>2pm - 4pm</span>
-                        </p>
-                    </div>
-                </div>
-                <div class="show">
-                    <img
-                            class="presenter-profile-pic"
-                            src="assets/images/presenters/mandy.jpg"
-                            alt=""
-                    />
-                    <div class="show-content">
-                        <h3 class="show-title">Mandy's Musings 'n' Music</h3>
-                        <p class="show-description">
-                            Come and muse away with Mandy's eclectic show combining Poetry, music and guests into a Jam Roly Poly.</p>
-                        <p class="show-info">
-                            <span>Alternate Saturdays</span>
-                            <span>5pm - 7pm</span>
-                        </p>
-                    </div>
-                </div>
-                <div class="show">
-                    <img
-                            class="presenter-profile-pic"
-                            src="assets/images/presenters/victoriaAnne.jpg"
-                            alt=""
-                    />
-                    <div class="show-content">
-                        <h3 class="show-title">Vortex of Music</h3>
-                        <p class="show-description">
-                            The music will hit you and sweep you variously along on a vociferous corcophony of enjoyable sound.</p>
-                        <p class="show-info">
-                            <span>Mondays</span>
-                            <span>7pm - 10pm</span>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div id="team" class="section section--team">
-        <h2>Team</h2>
-        <div class="team-container">
-            <p class="team-member">
-                <span class="team-member-name">Maureen Brown</span>
-                <span class="team-member-role">Chairperson / Presenter</span>
-            </p>
-            <p class="team-member">
-                <span class="team-member-name">Barbara Jeffreys</span>
-                <span class="team-member-role">Presenter</span>
-            </p>
-            <p class="team-member">
-                <span class="team-member-name">Wayne Scarce</span>
-                <span class="team-member-role">Presenter</span>
-            </p>
-            <p class="team-member">
-                <span class="team-member-name">Betty Gee</span>
-                <span class="team-member-role">Presenter</span>
-            </p>
-            <p class="team-member">
-                <span class="team-member-name">Tezza Nova</span>
-                <span class="team-member-role">Presenter</span>
-            </p>
-            <p class="team-member">
-                <span class="team-member-name">Edwin Bisby</span>
-                <span class="team-member-role">Presenter</span>
-            </p>
-            <p class="team-member">
-                <span class="team-member-name">Stuart Brierly</span>
-                <span class="team-member-role">Presenter</span>
-            </p>
-            <p class="team-member">
-                <span class="team-member-name">Caroline Hewick</span>
-                <span class="team-member-role">Presenter</span>
-            </p>
-            <p class="team-member">
-                <span class="team-member-name">Kai Greenwood</span>
-                <span class="team-member-role">Presenter</span>
-            </p>
-            <p class="team-member">
-                <span class="team-member-name">Mandy C</span>
-                <span class="team-member-role">Presenter</span>
-            </p>
-            <p class="team-member">
-                <span class="team-member-name">Vic Vixen</span>
-                <span class="team-member-role">Presenter</span>
-            </p>
-        </div>
-    </div>
+    <p>Time to website self-destruct: <span id="time-span"></span></p>
 </main>
-<footer>
-    <div class="footer-nav">
-        <div class="nav-item active">
-            <a href="#radio-player">
-            <span class="material-icons nav-icon material-icons-outlined">
-              radio
-            </span>
-            </a>
-            <p class="nav-item-text nav-item-text__active">Radio</p>
-        </div>
-        <div class="nav-item">
-            <a href="#about-us">
-            <span class="material-icons nav-item material-icons-outlined">
-              info
-            </span>
-            </a>
-            <p class="nav-item-text">About</p>
-        </div>
-        <div class="nav-item">
-            <a href="#shows">
-            <span class="material-icons nav-item material-icons-outlined">
-              queue_music
-            </span>
-            </a>
-            <p class="nav-item-text">Shows</p>
-        </div>
-        <div class="nav-item">
-            <a href="#team">
-            <span class="material-icons nav-item material-icons-outlined">
-              groups
-            </span>
-            </a>
-            <p class="nav-item-text">Team</p>
-        </div>
-    </div>
-</footer>
 
 <script
         src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
@@ -508,7 +81,17 @@
 <script src="script.js"></script>
 
 <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+<script>
+    const timeSpan = document.getElementById('time-span');
+    const endDate = new Date(2025, 7, 24);
+    setTimeout(function () {
+        const current = new Date();
+        const diff = endDate.getTime() - current.getTime();
+        const days = Math.floor(diff / (1000*60*60*24));
+        timeSpan.innerText = `${days} days`;
+    }, 3600)
 
+</script>
 </body>
 
 </html>
